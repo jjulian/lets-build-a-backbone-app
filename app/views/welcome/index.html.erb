@@ -2,7 +2,12 @@
   My page
 
 <script>
-  
+  var railsconfTweets = new Tweets();
+  var tweetsView = new TweetsView({
+    collection: railsconfTweets
+  });
+  $('#wrapper').prepend(tweetsView.el);
+  railsconfTweets.fetch();
 </script>
 
 </div>
