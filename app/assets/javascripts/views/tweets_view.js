@@ -2,6 +2,10 @@ var TweetsView = Backbone.View.extend({
   tagName: 'table',
   className: 'tweets',
   
+  events: {
+    'click': 'clickHandler'
+  },
+  
   initialize: function(options) {
     _.bindAll(this, 'render');
     this.collection.on('all', this.render, this);
@@ -14,5 +18,9 @@ var TweetsView = Backbone.View.extend({
     });
     this.$el.html(markup);
     return this;
+  },
+  
+  clickHandler: function() {
+    console.log('clicked');
   }
 });
