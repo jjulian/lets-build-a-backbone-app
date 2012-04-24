@@ -1,0 +1,16 @@
+# Let's Build a Backbone App!
+## BohConf April 24, 2012
+## Jonathan Julian (@jonathanjulian)
+This live-coding Rails/Backbone app build took about 90 minutes with step-by-step explanations and Q&A and some discussion. The attendees followed along on their own. It grabs tweets from the Twitter API, and shows them in a page. Everything is done using Backbone; the asset pipeline is used fully. Follow the commits to see what we did:
+
+* Create Rails 3.2 app
+* Add Backbone.js and reqs to the asset pipeline
+* Build an html page for the app
+* Create a Backbone Model and Collection
+* Create a view
+* Refactor view to use an EJS template
+* Add a demonstration event - click on a row
+
+If you were there, show me your repo! Or make a pull request on this repo to improve the example.
+
+# Thanks to everyone who attended and especially those who corrected my errors when I got off track! I hope it was as much fun for you as it was for me!!
