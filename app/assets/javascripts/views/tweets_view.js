@@ -10,7 +10,7 @@ var TweetsView = Backbone.View.extend({
   render: function() {
     var markup = '';
     this.collection.each(function(tweet) {
-      markup = markup + "<tr><td>"+tweet.get('text')+"</td></tr>";
+      markup = markup + JST.tweet_row(tweet.toJSON());
     });
     this.$el.html(markup);
     return this;

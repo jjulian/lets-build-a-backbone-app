@@ -15,3 +15,4 @@
 //= require vendor
 //= require_tree ./models
 //= require_tree .
+//= require_tree ../templates
