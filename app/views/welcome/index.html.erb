@@ -2,8 +2,8 @@
   My page
 
 <script>
-  var railsconfTweets = new Tweets();
-  var tweetsView = new TweetsView({
+  var railsconfTweets = new App.Tweets();
+  var tweetsView = new App.TweetsView({
     collection: railsconfTweets
   });
   $('#wrapper').prepend(tweetsView.el);
