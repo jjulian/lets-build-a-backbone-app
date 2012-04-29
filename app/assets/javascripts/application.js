@@ -12,6 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require init
 //= require vendor
 //= require_tree ./models
 //= require_tree .
