@@ -1,0 +1,5 @@
+rvm --create ruby-1.9.3@lets-build-a-backbone-app
+
+if ! command -v bundle ; then
+  gem install bundler
+fi
