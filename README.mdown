@@ -14,3 +14,7 @@ This live-coding Rails/Backbone app build took about 90 minutes with step-by-ste
 If you were there, show me your repo! Or make a pull request on this repo to improve the example.
 
 # Thanks to everyone who attended and especially those who corrected my errors when I got off track! I hope it was as much fun for you as it was for me!!
+
+
+CoffeeScript Implementation: https://github.com/spacemunkay/lets-build-a-backbone-coffeescript-app
+
